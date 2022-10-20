@@ -1,5 +1,11 @@
+:root {
+  --main-title-color: #ffffff;
+  --accent-color: #ff6c00;
+}
+
 body {
   font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--main-title-color);
 }
 
 .list {
@@ -10,12 +16,22 @@ body {
   text-decoration: none;
 }
 
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 /* Header */
 .header {
   background-color: gray;
 }
 .nav-link {
-  color: white;
+  color: var(--main-title-color);
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -28,14 +44,7 @@ body {
 }
 
 .header-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: calc(16 / 12);
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: #ffffff;
-  cursor: pointer;
+  color: var(--main-title-color);
   background-color: transparent;
   border: 1px solid #ffffff;
   border-radius: 25px;
@@ -51,7 +60,7 @@ body {
   line-height: calc(16 / 12);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 
 /* Hero */
@@ -85,7 +94,7 @@ body {
   font-size: 72px;
   line-height: calc(85 / 72);
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 
 .hero-description {
@@ -121,12 +130,6 @@ body {
   color: #555555;
 }
 .about-btn {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: calc(16 / 12);
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: #303030;
   border: 1px solid #ffffff;
   border-radius: 25px;

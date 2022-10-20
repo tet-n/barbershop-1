@@ -5,51 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barber Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <!-- Header -->
+    <header class="header">
+      <!-- Logo header -->
       <a href="">
         <img src="./images/logo_barber.svg" alt="Logo" />
       </a>
+      <!-- Navigation -->
       <nav>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Services and prices</a></li>
-          <li><a href="">Barbers</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="nav-list list">
+          <li class="nav-item"><a href="" class="nav-link link">About</a></li>
+          <li class="nav-item"><a href="" class="nav-link link">Services and prices</a></li>
+          <li class="nav-item"><a href="" class="nav-link link">Barbers</a></li>
+          <li class="nav-item"><a href="" class="nav-link link">Contacts</a></li>
         </ul>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online-booking</button>
+        <a href="tel:+380441111111" class="header-tel link">+38 044 111 11 11</a>
+        <button type="button" class="header-btn">Online-booking</button>
       </nav>
     </header>
 
     <main>
       <!-- Hero -->
-      <section>
-        <ul>
-          <li><a href="" target="_blank" rel="noopener norefferer nofollow">Instagram</a></li>
-          <li><a href="" target="_blank" rel="noopener norefferer nofollow">Youtube</a></li>
+      <section class="hero">
+        <ul class="hero-list list">
+          <li class="hero-list-item">
+            <a href="" target="_blank" rel="noopener norefferer nofollow" class="hero-link"
+              >Instagram</a
+            >
+          </li>
+          <li class="hero-list-item">
+            <a href="" target="_blank" rel="noopener norefferer nofollow" class="hero-link"
+              >Youtube</a
+            >
+          </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>We are experts in trendy men’s haircuts. We work quickly, carefully and with style.</p>
+        <p class="hero-text">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-description">
+          We are experts in trendy men’s haircuts. We work quickly, carefully and with style.
+        </p>
       </section>
 
-      <section>
-        <ul>
-          <li><img src="./images/haircut_1.jpg" alt="Haircut" /></li>
-          <li><img src="./images/haircut_2.jpg" alt="Haircut" /></li>
+      <!-- About -->
+      <section class="about">
+        <ul class="list">
+          <li><img src="./images/haircut_1.jpg" alt="Haircut" width="270" /></li>
+          <li><img src="./images/haircut_2.jpg" alt="Haircut" width="270" /></li>
         </ul>
-        <p>About</p>
-        <h2>Best Barbershop in your city</h2>
-        <p>If you want to add more confidence to your image, you should definitely visit us.</p>
-        <p>
+        <h2 class="about-title">About</h2>
+        <h3 class="about-subtitle">Best Barbershop in your city</h3>
+        <p class="about-text">
+          If you want to add more confidence to your image, you should definitely visit us.
+        </p>
+        <p class="about-description">
           We are a team that never stops at what has been achieved and are thirsty for changes. And
           when you fall into the hands of our master, you will never be the same again. We are a
           team that is always "on the same wave" with clients. Therefore, we are always ready to
           improve everyone who comes to us!
         </p>
-        <button type="button">ONLINE-BOOKING</button>
+        <button type="button" class="about-btn">ONLINE-BOOKING</button>
       </section>
       <!-- services -->
       <section>
